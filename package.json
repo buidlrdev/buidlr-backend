@@ -1,0 +1,27 @@
+{
+  "name": "buidlr-backend",
+  "version": "1.0.0",
+  "description": "Chat-based AI app builder backend",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.0",
+    "mysql2": "^3.9.0",
+    "uuid": "^9.0.0",
+    "ws": "^8.16.0",
+    "@privy-io/server-auth": "^1.0.0",
+    "@anthropic-ai/sdk": "^0.30.0",
+    "openai": "^4.70.0",
+    "@google/generative-ai": "^0.21.0",
+    "simple-git": "^3.22.0",
+    "dockerode": "^4.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  }
+}
